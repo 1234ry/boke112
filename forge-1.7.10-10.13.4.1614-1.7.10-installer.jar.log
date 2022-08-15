@@ -1,0 +1,316 @@
+java.net.preferIPv4Stack=true
+Considering minecraft server jar
+Downloading minecraft server version 1.7.10
+  ETag: 3e8912b293b52bd54f879919bd6e4e44
+  MD5:  3e8912b293b52bd54f879919bd6e4e44
+Considering library net.minecraftforge:forge:1.7.10-10.13.4.1614-1.7.10: Not Downloading {Wrong Side}
+Considering library net.minecraft:launchwrapper:1.12
+Downloading library net.minecraft:launchwrapper:1.12
+Trying unpacked library net.minecraft:launchwrapper:1.12
+Considering library org.ow2.asm:asm-all:5.0.3
+Downloading library org.ow2.asm:asm-all:5.0.3
+Trying unpacked library org.ow2.asm:asm-all:5.0.3
+Considering library com.typesafe.akka:akka-actor_2.11:2.3.3
+Downloading library com.typesafe.akka:akka-actor_2.11:2.3.3
+Trying unpacked library com.typesafe.akka:akka-actor_2.11:2.3.3
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.decode(Unknown Source)
+	at sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.decode(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readHandshakeRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.afterConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+	at net.minecraftforge.installer.DownloadUtils$URLISSupplier.getInput(DownloadUtils.java:368)
+	at net.minecraftforge.installer.DownloadUtils$URLISSupplier.getInput(DownloadUtils.java:356)
+	at com.google.common.io.ByteStreams$6.openStream(ByteStreams.java:989)
+	at com.google.common.io.ByteSource.copyTo(ByteSource.java:202)
+	at com.google.common.io.Files.copy(Files.java:382)
+	at net.minecraftforge.installer.DownloadUtils.downloadFile(DownloadUtils.java:289)
+	at net.minecraftforge.installer.DownloadUtils.downloadInstalledLibraries(DownloadUtils.java:73)
+	at net.minecraftforge.installer.ServerInstall.run(ServerInstall.java:93)
+	at net.minecraftforge.installer.InstallerAction.run(InstallerAction.java:55)
+	at net.minecraftforge.installer.InstallerPanel.run(InstallerPanel.java:424)
+	at net.minecraftforge.installer.SimpleInstaller.launchGui(SimpleInstaller.java:186)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:72)
+File not found in installer archive: /maven/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar
+Considering library com.typesafe:config:1.2.1
+Downloading library com.typesafe:config:1.2.1
+Trying unpacked library com.typesafe:config:1.2.1
+Considering library org.scala-lang:scala-actors-migration_2.11:1.1.0
+Downloading library org.scala-lang:scala-actors-migration_2.11:1.1.0
+Trying unpacked library org.scala-lang:scala-actors-migration_2.11:1.1.0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.access$300(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(Unknown Source)
+	at sun.net.www.http.HttpClient.parseHTTP(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+	at net.minecraftforge.installer.DownloadUtils$URLISSupplier.getInput(DownloadUtils.java:368)
+	at net.minecraftforge.installer.DownloadUtils$URLISSupplier.getInput(DownloadUtils.java:356)
+	at com.google.common.io.ByteStreams$6.openStream(ByteStreams.java:989)
+	at com.google.common.io.ByteSource.copyTo(ByteSource.java:202)
+	at com.google.common.io.Files.copy(Files.java:382)
+	at net.minecraftforge.installer.DownloadUtils.downloadFile(DownloadUtils.java:289)
+	at net.minecraftforge.installer.DownloadUtils.downloadInstalledLibraries(DownloadUtils.java:73)
+	at net.minecraftforge.installer.ServerInstall.run(ServerInstall.java:93)
+	at net.minecraftforge.installer.InstallerAction.run(InstallerAction.java:55)
+	at net.minecraftforge.installer.InstallerPanel.run(InstallerPanel.java:424)
+	at net.minecraftforge.installer.SimpleInstaller.launchGui(SimpleInstaller.java:186)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:72)
+File not found in installer archive: /maven/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar
+Considering library org.scala-lang:scala-compiler:2.11.1
+Downloading library org.scala-lang:scala-compiler:2.11.1
+Trying unpacked library org.scala-lang:scala-compiler:2.11.1
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.access$300(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(Unknown Source)
+	at sun.net.www.http.HttpClient.parseHTTP(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+	at net.minecraftforge.installer.DownloadUtils$URLISSupplier.getInput(DownloadUtils.java:368)
+	at net.minecraftforge.installer.DownloadUtils$URLISSupplier.getInput(DownloadUtils.java:356)
+	at com.google.common.io.ByteStreams$6.openStream(ByteStreams.java:989)
+	at com.google.common.io.ByteSource.copyTo(ByteSource.java:202)
+	at com.google.common.io.Files.copy(Files.java:382)
+	at net.minecraftforge.installer.DownloadUtils.downloadFile(DownloadUtils.java:289)
+	at net.minecraftforge.installer.DownloadUtils.downloadInstalledLibraries(DownloadUtils.java:73)
+	at net.minecraftforge.installer.ServerInstall.run(ServerInstall.java:93)
+	at net.minecraftforge.installer.InstallerAction.run(InstallerAction.java:55)
+	at net.minecraftforge.installer.InstallerPanel.run(InstallerPanel.java:424)
+	at net.minecraftforge.installer.SimpleInstaller.launchGui(SimpleInstaller.java:186)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:72)
+File not found in installer archive: /maven/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar
+Considering library org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2
+Downloading library org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2
+Trying unpacked library org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2
+java.net.SocketTimeoutException: connect timed out
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.New(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+	at net.minecraftforge.installer.DownloadUtils$URLISSupplier.getInput(DownloadUtils.java:368)
+	at net.minecraftforge.installer.DownloadUtils$URLISSupplier.getInput(DownloadUtils.java:356)
+	at com.google.common.io.ByteStreams$6.openStream(ByteStreams.java:989)
+	at com.google.common.io.ByteSource.copyTo(ByteSource.java:202)
+	at com.google.common.io.Files.copy(Files.java:382)
+	at net.minecraftforge.installer.DownloadUtils.downloadFile(DownloadUtils.java:289)
+	at net.minecraftforge.installer.DownloadUtils.downloadInstalledLibraries(DownloadUtils.java:73)
+	at net.minecraftforge.installer.ServerInstall.run(ServerInstall.java:93)
+	at net.minecraftforge.installer.InstallerAction.run(InstallerAction.java:55)
+	at net.minecraftforge.installer.InstallerPanel.run(InstallerPanel.java:424)
+	at net.minecraftforge.installer.SimpleInstaller.launchGui(SimpleInstaller.java:186)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:72)
+File not found in installer archive: /maven/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar
+Considering library org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2
+Downloading library org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2
+Trying unpacked library org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2
+Considering library org.scala-lang:scala-library:2.11.1
+Downloading library org.scala-lang:scala-library:2.11.1
+Trying unpacked library org.scala-lang:scala-library:2.11.1
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.access$300(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(Unknown Source)
+	at sun.net.www.http.HttpClient.parseHTTP(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+	at net.minecraftforge.installer.DownloadUtils$URLISSupplier.getInput(DownloadUtils.java:368)
+	at net.minecraftforge.installer.DownloadUtils$URLISSupplier.getInput(DownloadUtils.java:356)
+	at com.google.common.io.ByteStreams$6.openStream(ByteStreams.java:989)
+	at com.google.common.io.ByteSource.copyTo(ByteSource.java:202)
+	at com.google.common.io.Files.copy(Files.java:382)
+	at net.minecraftforge.installer.DownloadUtils.downloadFile(DownloadUtils.java:289)
+	at net.minecraftforge.installer.DownloadUtils.downloadInstalledLibraries(DownloadUtils.java:73)
+	at net.minecraftforge.installer.ServerInstall.run(ServerInstall.java:93)
+	at net.minecraftforge.installer.InstallerAction.run(InstallerAction.java:55)
+	at net.minecraftforge.installer.InstallerPanel.run(InstallerPanel.java:424)
+	at net.minecraftforge.installer.SimpleInstaller.launchGui(SimpleInstaller.java:186)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:72)
+File not found in installer archive: /maven/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar
+Considering library org.scala-lang:scala-parser-combinators_2.11:1.0.1
+Downloading library org.scala-lang:scala-parser-combinators_2.11:1.0.1
+Trying unpacked library org.scala-lang:scala-parser-combinators_2.11:1.0.1
+java.net.SocketTimeoutException: connect timed out
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)
+	at sun.net.www.protocol.https.HttpsClient.New(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+	at net.minecraftforge.installer.DownloadUtils$URLISSupplier.getInput(DownloadUtils.java:368)
+	at net.minecraftforge.installer.DownloadUtils$URLISSupplier.getInput(DownloadUtils.java:356)
+	at com.google.common.io.ByteStreams$6.openStream(ByteStreams.java:989)
+	at com.google.common.io.ByteSource.copyTo(ByteSource.java:202)
+	at com.google.common.io.Files.copy(Files.java:382)
+	at net.minecraftforge.installer.DownloadUtils.downloadFile(DownloadUtils.java:289)
+	at net.minecraftforge.installer.DownloadUtils.downloadInstalledLibraries(DownloadUtils.java:73)
+	at net.minecraftforge.installer.ServerInstall.run(ServerInstall.java:93)
+	at net.minecraftforge.installer.InstallerAction.run(InstallerAction.java:55)
+	at net.minecraftforge.installer.InstallerPanel.run(InstallerPanel.java:424)
+	at net.minecraftforge.installer.SimpleInstaller.launchGui(SimpleInstaller.java:186)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:72)
+File not found in installer archive: /maven/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar
+Considering library org.scala-lang:scala-reflect:2.11.1
+Downloading library org.scala-lang:scala-reflect:2.11.1
+Trying unpacked library org.scala-lang:scala-reflect:2.11.1
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.readFully(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.decodeInputRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.decode(Unknown Source)
+	at sun.security.ssl.SSLTransport.decode(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.decode(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.access$300(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at sun.net.www.MeteredStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(Unknown Source)
+	at com.google.common.io.ByteStreams.copy(ByteStreams.java:207)
+	at com.google.common.io.ByteSource.copyTo(ByteSource.java:204)
+	at com.google.common.io.Files.copy(Files.java:382)
+	at net.minecraftforge.installer.DownloadUtils.downloadFile(DownloadUtils.java:289)
+	at net.minecraftforge.installer.DownloadUtils.downloadInstalledLibraries(DownloadUtils.java:73)
+	at net.minecraftforge.installer.ServerInstall.run(ServerInstall.java:93)
+	at net.minecraftforge.installer.InstallerAction.run(InstallerAction.java:55)
+	at net.minecraftforge.installer.InstallerPanel.run(InstallerPanel.java:424)
+	at net.minecraftforge.installer.SimpleInstaller.launchGui(SimpleInstaller.java:186)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:72)
+File not found in installer archive: /maven/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar
+Considering library org.scala-lang:scala-swing_2.11:1.0.1
+Downloading library org.scala-lang:scala-swing_2.11:1.0.1
+Trying unpacked library org.scala-lang:scala-swing_2.11:1.0.1
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.readHeader(Unknown Source)
+	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.access$300(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at sun.net.www.http.HttpClient.parseHTTPHeader(Unknown Source)
+	at sun.net.www.http.HttpClient.parseHTTP(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(Unknown Source)
+	at net.minecraftforge.installer.DownloadUtils$URLISSupplier.getInput(DownloadUtils.java:368)
+	at net.minecraftforge.installer.DownloadUtils$URLISSupplier.getInput(DownloadUtils.java:356)
+	at com.google.common.io.ByteStreams$6.openStream(ByteStreams.java:989)
+	at com.google.common.io.ByteSource.copyTo(ByteSource.java:202)
+	at com.google.common.io.Files.copy(Files.java:382)
+	at net.minecraftforge.installer.DownloadUtils.downloadFile(DownloadUtils.java:289)
+	at net.minecraftforge.installer.DownloadUtils.downloadInstalledLibraries(DownloadUtils.java:73)
+	at net.minecraftforge.installer.ServerInstall.run(ServerInstall.java:93)
+	at net.minecraftforge.installer.InstallerAction.run(InstallerAction.java:55)
+	at net.minecraftforge.installer.InstallerPanel.run(InstallerPanel.java:424)
+	at net.minecraftforge.installer.SimpleInstaller.launchGui(SimpleInstaller.java:186)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:72)
+File not found in installer archive: /maven/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar
+Considering library org.scala-lang:scala-xml_2.11:1.0.2
+Downloading library org.scala-lang:scala-xml_2.11:1.0.2
+Trying unpacked library org.scala-lang:scala-xml_2.11:1.0.2
+Considering library lzma:lzma:0.0.1
+Downloading library lzma:lzma:0.0.1
+Trying unpacked library lzma:lzma:0.0.1
+Considering library net.sf.jopt-simple:jopt-simple:4.5
+Downloading library net.sf.jopt-simple:jopt-simple:4.5
+Trying unpacked library net.sf.jopt-simple:jopt-simple:4.5
+Considering library com.google.guava:guava:17.0
+Downloading library com.google.guava:guava:17.0
+Trying unpacked library com.google.guava:guava:17.0
+Considering library org.apache.commons:commons-lang3:3.3.2
+Downloading library org.apache.commons:commons-lang3:3.3.2
+Trying unpacked library org.apache.commons:commons-lang3:3.3.2
